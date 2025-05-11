@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jogo de Chave Catraca - 40 ou 46 Peças</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --fundo: #f0f2f5;
+      --cinza: #1f1f1f;
+      --vermelho: #e53935;
+      --texto: #333;
+      --branco: #ffffff;
+      --sombra: rgba(0, 0, 0, 0.15);
+    }
+
+    body {
+      font-family: 'Oxanium', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--fundo);
+      color: var(--texto);
+    }
+
+    header {
+      background: var(--cinza);
+      color: white;
+      padding: 2.5rem 1rem;
+      text-align: center;
+      background-image: linear-gradient(to right, #1f1f1f, #333);
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .produto {
+      background: var(--branco);
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+      gap: 2rem;
+      align-items: center;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 16px var(--sombra);
+    }
+
+    .produto img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px var(--sombra);
+      flex: 1;
+    }
+
+    .produto-info {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .produto-info h2 {
+      color: var(--vermelho);
+      font-size: 1.6rem;
+    }
+
+    .beneficios {
+      margin-top: 1rem;
+      background: #fefefe;
+      border: 2px dashed var(--vermelho);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+
+    .beneficios ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .beneficios li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .botao, .botao-central {
+      display: inline-block;
+      background: var(--vermelho);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .botao:hover, .botao-central:hover {
+      background: #b71c1c;
+    }
+
+    .botao-central {
+      display: block;
+      text-align: center;
+      margin: 2rem auto;
+      font-size: 1.3rem;
+      padding: 1rem 2rem;
+    }
+
+    .cronometro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+      background: var(--vermelho);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      max-width: max-content;
+      margin: 2rem auto 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .cronometro span {
+      background: var(--branco);
+      color: var(--vermelho);
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      min-width: 90px;
+      text-align: center;
+      font-family: monospace;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: var(--cinza);
+      color: white;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jogo de Chave Catraca - 40 ou 46 Peças</h1>
+  <p>Kit completo com catraca reversível, soquetes e maleta reforçada</p>
+</header>
+
+<div class="container">
+
+  <div class="produto">
+    <img src="br-11134207-7r98o-m9dxs5n7yigy6f.webp" alt="Kit de ferramentas 46 peças"/>
+    <div class="produto-info">
+      <h2>Versatilidade e Eficiência</h2>
+      <div class="beneficios">
+        <ul>
+          <li>Ferramentas em aço de alta resistência</li>
+          <li>Catraca com reverso e trava de segurança</li>
+          <li>Soquetes para diferentes tipos de parafusos</li>
+          <li>Ideal para uso doméstico, mecânico e industrial</li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="produto">
+    <img src="br-11134207-7r98o-luocmbin2l403f.webp" alt="Maleta de ferramentas 40 peças"/>
+    <div class="produto-info">
+      <h2>Organização Profissional</h2>
+      <div class="beneficios">
+        <ul>
+          <li>Maleta plástica resistente e prática</li>
+          <li>Ferramentas bem organizadas e fáceis de transportar</li>
+          <li>Design ergonômico para maior conforto</li>
+          <li>Tudo o que você precisa em um só lugar</li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="produto">
+    <img src="br-11134207-7r98o-m9dxs5n81blu6a@resize_w900_nl.webp" alt="Detalhe dos soquetes"/>
+    <div class="produto-info">
+      <h2>Detalhes de Alta Precisão</h2>
+      <div class="beneficios">
+        <ul>
+          <li>Acabamento cromado para maior durabilidade</li>
+          <li>Soquetes com encaixe preciso e seguro</li>
+          <li>Diversos tamanhos e formatos</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="cronometro">
+    <div>
+      <strong style="text-decoration: line-through; opacity: 0.7;">De R$ 99,80</strong> <span style="opacity: 0.7;">por</span> <strong style="color: #fff; background: #b71c1c; padding: 0.4rem 0.7rem; border-radius: 5px;">R$ 45,07</strong>
+    </div>
+    <div>Oferta termina em:</div>
+    <span id="contador">02:35:00</span>
+  </div>
+
+  <a href="https://s.shopee.com.br/8fFiSAxnUm" class="botao-central">Comprar Agora na Shopee</a>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 Sua Loja. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+  let tempoRestante = 2 * 60 * 60 + 35 * 60;
+  const contadorEl = document.getElementById("contador");
+
+  function atualizarContador() {
+    const horas = Math.floor(tempoRestante / 3600);
+    const minutos = Math.floor((tempoRestante % 3600) / 60);
+    const segundos = tempoRestante % 60;
+
+    contadorEl.textContent =
+      `${horas.toString().padStart(2, '0')}:` +
+      `${minutos.toString().padStart(2, '0')}:` +
+      `${segundos.toString().padStart(2, '0')}`;
+
+    if (tempoRestante > 0) {
+      tempoRestante--;
+      setTimeout(atualizarContador, 1000);
+    }
+  }
+
+  atualizarContador();
+</script>
+
+</body>
+</html>
